@@ -30,7 +30,20 @@
   color: #ffffff;
 }
 
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product-item{
+  border: 1 px solid #ccc;
+  padding: 20px;
+  margin: 20px;
 
+}
+.product-item img{
+  width: 150px;
+  height: 150px;
+}
 
 
 

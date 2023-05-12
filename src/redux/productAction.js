@@ -1,7 +1,14 @@
-import { PRODUCT_LIST, } from "./constants"
+import { PRODUCT_LIST, SEARCH_PRODUCT, } from "./constants"
 
 export const productList = () => {
     return {
         type: PRODUCT_LIST,
+    }
+}
+
+export const productSearch = (querry) => {
+    return {
+        type: SEARCH_PRODUCT,
+        querry // passing to saga
     }
 }
