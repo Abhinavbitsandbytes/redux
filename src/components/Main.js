@@ -5,6 +5,7 @@ import { useSelector } from 'react-redux';
 function Main() {
     const dispatch = useDispatch();
     let data = useSelector((state)=> state.productData)
+    console.log('data in main', data)
     const product = {
         name: 'Iphone',
         type: 'mobile',
