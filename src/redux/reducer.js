@@ -12,7 +12,8 @@ export const cartData = (data = [], action) => {
             data=[];
             return [...data];
         default:
+            return data
             // no case matched
-            return []
+        
     }
 }
